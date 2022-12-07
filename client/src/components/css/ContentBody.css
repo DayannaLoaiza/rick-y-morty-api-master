@@ -1,0 +1,7 @@
+.ContentBody {
+    position: relative;
+    flex: 1;
+    overflow: auto;
+    height: Calc(100vh - 4.1rem);
+    width: 100%;
+}

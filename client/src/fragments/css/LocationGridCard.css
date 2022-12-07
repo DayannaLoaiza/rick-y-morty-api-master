@@ -1,0 +1,37 @@
+.LocationGridCard {
+
+}
+
+.LocationGridCard > a{
+    transition: filter ease 300ms;
+    filter: grayscale(100%);
+}
+
+.LocationGridCard > a:hover {
+    filter: grayscale(0%);
+}
+
+.LocationGridCard .ImageContainer img {
+    float: left;
+    width: 50%;
+    height: auto;
+}
+
+.LocationGridCard .CardDetails{
+    line-height: 1rem;
+    position: relative;
+    overflow: hidden;
+    padding: .8rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.LocationGridCard .CardDetails div {
+    padding: 0;
+    width: 100%;
+    margin: 0;
+    font-size: .9rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

@@ -1,0 +1,38 @@
+.EpisodeGridCard {
+
+}
+
+.EpisodeGridCard > a{
+    transition: filter ease 300ms;
+    filter: grayscale(100%);
+}
+
+.EpisodeGridCard > a:hover {
+    filter: grayscale(0%);
+}
+
+.EpisodeGridCard .CardImage {
+    float: left;
+    width: 50%;
+    height: auto;
+}
+
+
+.EpisodeGridCard .CardDetails{
+    line-height: 1rem;
+    position: relative;
+    overflow: hidden;
+    padding: .8rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.EpisodeGridCard .CardDetails div {
+    padding: 0;
+    width: 100%;
+    margin: 0;
+    font-size: .9rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

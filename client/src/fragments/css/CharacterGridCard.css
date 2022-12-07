@@ -1,0 +1,37 @@
+.CharacterGridCard {
+
+}
+
+.CharacterGridCard .CardImage {
+    transition: filter ease 300ms;
+    border-radius: 2px 2px 0 0;
+    filter: grayscale(100%);
+    width: 100%;
+    padding-top: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(http://localhost:3000/static/img/loading_image.gif);
+}
+
+.CharacterGridCard .CardImage:hover {
+    filter: grayscale(0%);
+}
+
+.CharacterGridCard .CardDetails{
+    line-height: 1rem;
+    position: relative;
+    overflow: hidden;
+    padding: .8rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.CharacterGridCard .CardDetails div {
+    padding: 0;
+    width: 100%;
+    margin: 0;
+    font-size: .9rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

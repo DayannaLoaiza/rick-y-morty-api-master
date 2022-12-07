@@ -1,0 +1,8 @@
+.SideBar {
+    min-width: 200px;
+    border-right: 1px solid rgba(128,128,128,.35);
+    background-image: url(http://localhost:3000/static/img/rym_logo-50pcnt.svg);
+    background-position: bottom 5% left;
+    background-repeat: no-repeat;
+    background-size: 120%;
+}

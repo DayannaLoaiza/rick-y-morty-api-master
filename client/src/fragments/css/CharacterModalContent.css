@@ -1,0 +1,28 @@
+.CharacterModalContent {
+
+}
+
+.CharacterModalContent .ModalMainImage {
+    border-radius: 10;
+    height: 300;
+    width: 300;
+    object-fit: cover;
+    border-radius: 5px;
+    height: 300px;
+    width: 300px;
+}
+
+.CharacterModalContent .Details {
+    width: 100%;
+    overflow: hidden;
+    overflow-y: auto;
+    height: 325px;
+}
+
+.CharacterModalContent .ReadonlyControl {
+    min-height: 2.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 1.2rem;
+}

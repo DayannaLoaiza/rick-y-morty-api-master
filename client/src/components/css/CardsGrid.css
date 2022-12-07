@@ -1,0 +1,11 @@
+.CardsGrid {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 1.5rem;
+    width: 100%;
+    height: Calc(100vh - 13.5rem);
+    overflow: auto;
+    position: relative;
+    padding-right: 1rem;
+}
